@@ -1,3 +1,4 @@
 .link{
-    display: inline-block;
+    display: inline-flex;
+    position: absolute;
 }
