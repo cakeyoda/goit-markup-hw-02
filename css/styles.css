@@ -161,5 +161,6 @@ ul {
 
   .section-title,
   .list-item {
+    padding-left: 10px;
     color: var(--color-title);
 }
