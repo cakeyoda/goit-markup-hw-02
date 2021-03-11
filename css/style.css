@@ -1,7 +1,21 @@
-.ul {
+:root {
+  --primary-color: #212121;
+  --black-color: #000000;
+  --grey-color: #757575;
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+  }
+
+ul {
     list-style: none;
   }
-  /* Stile header */
+
+  /* Стиль шапка */
 
   .logo-item {
     font-family: Raleway;
@@ -78,7 +92,18 @@
     left: 700px;
     top: 430px;
   }
+
+  .link {
+    color: #212121;
+    text-decoration: none;
+  }
   
+  .link:hover,
+  .link:focus {
+    color: #2196f3;
+  }
+
+
   /* Features */
   .section-title {
     color: #212121;
