@@ -1,7 +1,8 @@
-ul {
+.ul {
     list-style: none;
   }
   /* Stile header */
+
   .logo-item {
     font-family: Raleway;
     font-weight: bold;
@@ -10,29 +11,37 @@ ul {
     letter-spacing: 0.03em;
     color: #2196f3;
   }
+
   .logo {
     color: #000000;
   }
+
   .page-header {
     background: #ffffff;
   }
+
   .site-nav a {
     color: #212121;
   }
+
   .site-nav a:hover,
   .site-nav a:focus {
     color: #2196f3;
   }
+
   . link.current {
     color: #2196f3;
   }
+
   .address-header a {
     color: #757575;
   }
+
   .address-header :hover,
   .address-header :focus {
     color: #2196f3;
   }
+
   /* Bg */
   .hero-text {
     position: absolute;
