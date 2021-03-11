@@ -79,6 +79,38 @@ ul {
     background-color: #F5F4FA;
   }
 
+  .main .section-title.h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .team .section-title.h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .main .section-title.h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .main .benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+
   .footer {
     background-color: #2f303a;
   }
@@ -88,7 +120,6 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin-bottom: 0px;
   }
 
   .address a {
