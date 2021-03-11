@@ -37,6 +37,17 @@ ul {
     color: #2196f3;
   }
 
+  .logo-footer {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   .link {
       color: #212121;
       text-decoration: none;
