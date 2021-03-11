@@ -49,7 +49,7 @@ ul {
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
   }
 
@@ -124,10 +124,6 @@ ul {
     /* or 171% */
     letter-spacing: 0.03em;
     color: #757575;
-  }
-
-  .footer {
-    
   }
 
   .footer-contact a {
