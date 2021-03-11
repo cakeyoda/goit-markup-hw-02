@@ -43,14 +43,15 @@ ul {
   }
 
   .logo-footer {
+    text-decoration: none;
     font-family: Raleway;
-    font-weight: bold;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 31px;
     /* identical to box height */
     letter-spacing: 0.03em;
+    /* color: #2196f3; */
     color: #000000;
-    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .link {
@@ -149,7 +150,7 @@ ul {
   }
 
   .address .street {
-    color: #000;
+    color: #212121;
     text-decoration: none;
   }
   
