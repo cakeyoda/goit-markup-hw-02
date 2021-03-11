@@ -68,6 +68,10 @@ ul {
     background-color: #F5F4FA;
   }
 
+  .footer {
+    background-color: #2f303a;
+  }
+
   .footer-contact a {
     font-style: normal;
     font-size: 14px;
