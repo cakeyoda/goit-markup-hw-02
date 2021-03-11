@@ -40,20 +40,33 @@ ul {
   .link {
       color: #212121;
       text-decoration: none;
-    }
+  }
     
-    .link:hover,
-    .link:focus {
+  .link:hover,
+  .link:focus {
       color: #2196f3;
-    }
+  }
 
-    .nav-contact a {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-      color: #757575;
-    }
+  .nav-contact a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+
+  .button {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:#212121;
+    background-color: #F5F4FA;
+  }
 
   .page-header {
     background: #ffffff;
