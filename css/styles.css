@@ -87,7 +87,7 @@ ul {
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-    margin-top: 5px;
+    margin-left: 10px;
   }
 
   .button:hover {
@@ -161,6 +161,5 @@ ul {
 
   .section-title,
   .list-item {
-    padding-left: 10px;
     color: var(--color-title);
 }
