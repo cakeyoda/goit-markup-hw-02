@@ -37,6 +37,24 @@ ul {
     color: #2196f3;
   }
 
+  .link {
+      color: #212121;
+      text-decoration: none;
+    }
+    
+    .link:hover,
+    .link:focus {
+      color: #2196f3;
+    }
+
+    .nav-contact a {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: #757575;
+    }
+
   .page-header {
     background: #ffffff;
   }
@@ -100,23 +118,7 @@ ul {
     top: 430px;
   }
 
-  .link {
-    color: #212121;
-    text-decoration: none;
-  }
   
-  .link:hover,
-  .link:focus {
-    color: #2196f3;
-  }
-
-  .nav-contact a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-  }
 
 
   /* Features */
