@@ -12,6 +12,7 @@ body {
   }
 
 ul {
+    float: left;
     list-style: none;
   }
 
