@@ -8,11 +8,15 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #111010;
+    color: #212121;
   }
 
 ul {
     list-style: none;
+  }
+
+  .site-nav{
+      display:block;
   }
 
   /* Стиль шапка */
