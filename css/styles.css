@@ -1,26 +1,28 @@
+  
+/* main background color #ffffff */
+/* secondary background color #F5F4FA  */
+/* color accent #2196F3 */
+/* main text color #757575 */
+/* color title #212121 */
+
 :root {
-  --primary-color: #212121;
-  --black-color: #000000;
-  --grey-color: #757575;
-  --blue-color: #2196f3;
-  --white-color: #ffffff;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    color: #212121;
+    --main-background-color: #ffffff;
+    --secondary-background-color: #f5f4fa;
+    --color-accent: #2196f3;
+    --main-text-color: #757575;
+    --color-title: #212121;
   }
-
-ul {
+  
+  body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+  }
+  
+  .list {
     list-style: none;
   }
-
-  .site-nav{
-      display:block;
-  }
-
-  /* Стиль шапка */
-
+  
   .logo {
     text-decoration: none;
     font-family: Raleway;
@@ -32,47 +34,36 @@ ul {
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-
-  .logo-item {
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196f3;
+  
+  .logo-style {
+    color: var(--color-accent);
   }
-
-  .logo-footer {
+  
+  /* site-nav */
+  
+  .site-nav .link {
     text-decoration: none;
-    font-family: Raleway;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    /* color: #2196f3; */
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--color-title);
   }
-
-  .link {
-      color: #212121;
-      text-decoration: none;
+  
+  .site-nav .link.current {
+    color: var(--color-accent)
   }
-    
-  .link:hover,
-  .link:focus {
-      color: #2196f3;
+  
+  .auth-nav .link {
+    text-decoration: none;
+    color: var(--main-text-color);
   }
-
-  .nav-contact a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
+  
+  .auth-nav .link:hover,
+  .auth-nav .link:focus,
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: var(--color-accent);
   }
-
-  .button {
+  
+  .section-title,
+  .list-item {
     box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
 	background-color:#f9f9f9;
@@ -88,78 +79,16 @@ ul {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
     margin-left: 10px;
-  }
-
-  .button:hover {
-    background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
-	background-color:#e9e9e9;  
-  }
-
-  .main .section-title.h2 {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-  
-  .team .section-title.h2 {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-  
-  .main .section-title.h3 {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
-  
-  .main .benefits-text {
-    font-size: 14px;
-    line-height: 1.71;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: #757575;
-  }
-
-  .footer-contact a {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
-
-  .address a {
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .address.link:hover,
-  .address.link:focus {
-    color: #2196f3;
-  }
-
-  .address .street .link {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
-
-  .address .street {
-    color: #212121;
-    text-decoration: none;
-  }
-  
-  .address.link {
-    color: rgba(0, 0, 0, 0.6);
-    text-decoration: none;
-  }
-
-  .section-title,
-  .list-item {
     color: var(--color-title);
-}
+  }
+
+  .section-title:hover{
+    background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+  }
+    
+  .contacts {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  }
