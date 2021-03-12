@@ -159,8 +159,8 @@
   }
    /*кнопка портфолио*/
   .button_2:hover {
-    background:linear-gradient(to bottom, #2196f3 5%, #2196f3 100%);
-    background-color:#f6f6f6;
+    background: var(--accent-color);
+    color: #ffffff;
   }
   /*кнопка индекс*/
   .button:active {
