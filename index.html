@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -18,21 +17,21 @@
 
 <body>
 
-  <!-- Шапка сайта -->
+  <!-- шапка сайта -->
 
   <header>
     <nav>
-        <a class="logo" href="./index.html"><span class="logo-header">Web</span>Studio</a>
+      <a class="logo" href="./index.html"><span class="logo-header">Web</span>Studio</a>
       <ul class="site-nav list">
-        <li><a class="link" href="./index.html">Студия</a></li>
+        <li><a class="link current" href="./index.html">Студия</a></li>
         <li><a class="link" href="./portfolio.html">Портфолио</a></li>
         <li><a class="link" href="">Контакты</a></li>
       </ul>
+      <ul class="auth-nav list">
+        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+380961111111">+38 05 044 11 11</a></li>
+      </ul>
     </nav>
-    <ul class="auth-nav list">
-      <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
   </header>
 
   <main>
@@ -40,14 +39,14 @@
     <!-- Баннер Герой -->
 
     <section class="container">
-        <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-        <button class="button" type="button">Заказать услугу</button>
+      <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+      <button class="button" type="button">Заказать услугу</button>
     </section>
 
     <!-- Особенности студии -->
 
-    <section class="section">
-      <h2 class="section-title">Особенности</h2>
+    <section>
+      <h2 class="section-title visually-hidden">Особенности</h2>
       <ul class="list">
         <li>
           <h3 class="list-item">Внимание к деталям</h3>
@@ -79,42 +78,38 @@
       </ul>
     </section>
 
-    <!-- Члены нашей команды -->
-
+    <!-- Наша команда -->
     <section class="container-team">
-      <h2 class="section-team">Наша команда</h2>
+      <h2 class="section-title">Наша команда</h2>
       <ul class="list">
         <li>
           <img src="./images/prod-designer.jpg" alt="карточка сотрудника 4" width="270">
-          <h3 class="list-item team">Игорь Демьяненко</h3>
-          <p>Product Designer</p>
+          <h3 class="list-item tiam">Игорь Демьяненко</h3>
+          <p class="tiam profession">Product Designer</p>
         </li>
         <li>
           <img src="./images/fronend-dev.jpg" alt="карточка сотрудника 3" width="270">
-          <h3 class="team proffesion">Ольга Репина</h3>
-          <p>Frontend Developer</p>
+          <h3 class="list-item tiam">Ольга Репина</h3>
+          <p class="profession">Frontend Developer</p>
         </li>
         <li>
           <img src="./images/marketting.jpg" alt="карточка сотрудника 2" width="270">
-          <h3 class="profession">Николай Тарасов</h3>
-          <p>Marketing</p>
+          <h3 class="list-item tiam">Николай Тарасов</h3>
+          <p class="profession">Marketing</p>
         </li>
         <li>
           <img src="./images/ui-designer.jpg" alt="карточка сотрудника 1" width="270">
-          <h3 class="profession">Михаил Ермаков</h3>
-          <p>UI Designer</p>
+          <h3 class="list-item tiam">Михаил Ермаков</h3>
+          <p class="profession">UI Designer</p>
         </li>
       </ul>
     </section>
   </main>
 
   <!-- Подвал -->
-
   <footer>
     <div class="container">
-        <a class="logo" href="./index.html">
-            <span class="logo-header">Web</span><span class="logo-footer">Studio</span>
-        </a>
+      <a class="logo" href="./index.html"><span class="logo-header">Web</span><span class="logo-footer">Studio</span></a>
       <address class="contacts">г. Киев, пр-т Леси Украинки, 26
         <ul class="auth-nav list">
           <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -123,6 +118,6 @@
       </address>
     </div>
   </footer>
-</body>
 
-</html>
+
+</body></html>

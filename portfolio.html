@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
   <title>Портфолио</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -31,18 +35,21 @@
     <h1>Портфолио</h1>
 
     <!-- Фильтр -->
-    <section>
-      <h2 class="section-title"></h2>
-      <button class="button_2" type="button">Все</button>
-      <button class="button_2" type="button">Веб-сайты</button>
-      <button class="button_2" type="button">Приложения</button>
-      <button class="button_2" type="button">Дизайн</button>
-      <button class="button_2" type="button">Маркетинг</button>
-    </section>
+    <div>
+      <h1 class="visually-hidden">Портфолио</h1>
+
+      <section>
+        <h2 class="section-title visually-hidden">Фильтр</h2>
+        <button class="button_2" type="button">Все</button>
+        <button class="button_2" type="button">Веб-сайты</button>
+        <button class="button_2" type="button">Приложения</button>
+        <button class="button_2" type="button">Дизайн</button>
+        <button class="button_2" type="button">Маркетинг</button>
+      </section>
 
     <!-- Галерея проектов -->
     <section>
-      <h2 class="section-title">Галерея проектов</h2>
+      <h2 class="section-title visually-hidden">Галерея проектов</h2>
       <ul class="list">
         <li>
           <img src="./images/img.jpg" alt="Веб-сайт" width="370">
@@ -91,21 +98,21 @@
         </li>
       </ul>
     </section>
+  </div>
   </main>
 
   <!-- Подвал -->
   <footer>
-        <div class="container">
-                <a class="logo" href="./index.html">
-                <span class="logo-header">Web</span>
-                <span class="logo-footer">Studio</span></a>
-                <address class="contacts">г. Киев, пр-т Леси Украинки, 26
-                <ul class="auth-nav list">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
-        </div>
+      <div class="conteiner">
+        <a class="logo" href="./index.html"><span class="logo-header">Web</span><span
+            class="logo-footer">Studio</span></a>
+        <address class="contacts">г. Киев, пр-т Леси Украинки, 26
+          <ul class="auth-nav list">
+            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
 </body>
 </html>

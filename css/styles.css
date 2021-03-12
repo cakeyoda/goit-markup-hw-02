@@ -1,11 +1,12 @@
   
 :root {
-    --main-background-color: #ffffff;
+    --main-color: #ffffff;
     --conteiner-bg-color: #2f303a;
     --secondary-background-color: #f5f4fa;
     --accent-color: #2196f3;
     --main-text-color: #757575;
     --title-color: #212121;
+    --logo-color: #000000;  
   }
   
   body {
@@ -17,7 +18,7 @@
     line-height: 1.71;
     color: var(--main-text-color);
     letter-spacing: 0.03em;
-    background-color: var(--main-background-color);
+    background-color: var(--main-color);
   }
     
   .list {
@@ -26,20 +27,33 @@
   
   .link {
     text-decoration: none;
+    position: relative;
+    left: -1%;
     color: var(--main-text-color);
   }
+
+  /*Скрытие текста*/
+
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+  }
+  
   /* логотип */
   
   .logo {
-    text-decoration: none;
     font-family: Raleway;
+    font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--logo-color);
   }
   
   .logo-header {
+    text-align: center;
+    letter-spacing: 0.06em;
     color: var(--accent-color);
   }
   
@@ -86,7 +100,12 @@
   }
   
   .container {
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
     background-color: var(--conteiner-bg-color);
+    cursor: pointer;
     padding: 1%;
   }
     
@@ -114,7 +133,7 @@
   }
   
   .logo-footer {
-    color: var(--main-background-color);
+    color: var(--main-color);
   }
   
   .list-item {
@@ -127,7 +146,7 @@
   
   .contacts {
     font-style: normal;
-    color: var(--main-background-color);
+    color: var(--main-color);   
   }
 
   .contacts .link {
@@ -151,7 +170,7 @@
     color: #ffffff;
     background-color: var(--accent-color);
     position: relative;
-    left: 50%;
+    left: 6%;
     transform: translate(-50%, 0);
     border-radius:3px;
     border: 0;
