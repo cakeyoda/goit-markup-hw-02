@@ -96,7 +96,7 @@
     color: #ffffff;
   }
   
-  .conteiner {
+  .container {
     background-color: var(--conteiner-bg-color);
     padding: 3%;
   }
@@ -120,6 +120,7 @@
   .contacts {
     font-style: normal;
   }
+
   /*кнопка индекс*/
   .button {
     font-weight: bold;
@@ -146,7 +147,7 @@
     color: #ffffff;
     background-color: var(--accent-color);
     position: relative;
-    left: 30%;
+    left: 35%;
   }
 
   /*кнопка индекс*/
