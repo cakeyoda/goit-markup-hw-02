@@ -98,7 +98,7 @@
   
   .conteiner {
     background-color: var(--conteiner-bg-color);
-    padding: 5%;
+    padding: 3%;
   }
     
   .section-title {
@@ -136,8 +136,9 @@
 	padding:5px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-  top: 50%;
-  left: 45%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
   .button:hover {
 	background:linear-gradient(to bottom, #1d80cf 5%, #1d80cf 100%);
