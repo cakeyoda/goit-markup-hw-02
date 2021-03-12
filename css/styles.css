@@ -150,6 +150,8 @@
     position: relative;
     left: 35%;
     border-radius:3px;
+    border: 0;
+    background: #F5F4FA;
   }
 
   /*кнопка индекс*/
@@ -161,6 +163,7 @@
   .button_2:hover {
     background: var(--accent-color);
     color: #ffffff;
+    border: 0;
   }
   /*кнопка индекс*/
   .button:active {
