@@ -98,6 +98,7 @@
   
   .conteiner {
     background-color: var(--conteiner-bg-color);
+    padding: 5%;
   }
     
   .section-title {
@@ -121,24 +122,25 @@
   }
 
   .button {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	background-color:#ffffff;
+	box-shadow:inset 0px 0px 0px 0px;
+	background:linear-gradient(to bottom, #2196f3 5%, #2196f3 100%);
+	background-color:#2196f3;
 	border-radius:6px;
-	border:1px solid #dcdcdc;
+	border:5px solid #2196f3;
 	display:inline-block;
 	cursor:pointer;
-	color:#666666;
+	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
+	font-weight:500;
+	padding:5px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-    margin-left: 10px;
+  top: 50%;
+  left: 45%;
   }
   .button:hover {
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #1d80cf 5%, #1d80cf 100%);
 	background-color:#f6f6f6;
   }
   .button:active {
