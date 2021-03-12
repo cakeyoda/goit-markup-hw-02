@@ -163,7 +163,15 @@
 	background:linear-gradient(to bottom, #1d80cf 5%, #1d80cf 100%);
 	background-color:#f6f6f6;
   }
+  .button_2:hover {
+    background:linear-gradient(to bottom, #1d80cf 5%, #1d80cf 100%);
+    background-color:#f6f6f6;
+  }
   .button:active {
+	position:relative;
+	top:1px;
+  }
+  .button_2:active {
 	position:relative;
 	top:1px;
   }
