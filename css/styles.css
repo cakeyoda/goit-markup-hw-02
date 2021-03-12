@@ -145,7 +145,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #ffffff;
-    background-color: var(--accent-color);
+    background-color: var(--main-background-color);
     position: relative;
     left: 35%;
   }
