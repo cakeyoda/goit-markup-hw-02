@@ -9,6 +9,10 @@
     --logo-color: #000000;  
   }
   
+  ul{
+      list-style: none;
+  }
+  
   body {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
@@ -37,6 +41,12 @@
   .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
   }
   
   /* логотип */
@@ -186,11 +196,10 @@
     letter-spacing: 0.06em;
     color: #000000;
     background-color: var(--main-background-color);
-    position: relative;
-    left: 35%;
     border-radius:3px;
     border: 0;
     background: #F5F4FA;
+    margin-top: 10px;   
   }
 
   /*кнопка индекс*/
