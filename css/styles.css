@@ -15,14 +15,12 @@
   
   body {
     /* font-family: 'Raleway', sans-serif; */
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--main-text-color);
-    letter-spacing: 0.03em;
-    background-color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
   }
     
   .list {
@@ -31,9 +29,11 @@
   
   .link {
     text-decoration: none;
-    position: relative;
-    left: -1%;
     color: var(--main-text-color);
+  }
+
+  .location {
+    color: var(--main-color);
   }
 
   /*Скрытие текста*/
@@ -74,8 +74,9 @@
     color: var(--title-color);
     font-weight: 500;
     font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.14;
-    letter-spacing: 0.02em;
+    
   }
   .auth-nav .link {
     font-weight: 500;
@@ -106,19 +107,9 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
-  }
-  
-  .container {
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
     color: var(--main-color);
-    background-color: var(--conteiner-bg-color);
-    cursor: pointer;
-    padding: 1%;
   }
-    
+      
   .section-title {
     font-weight: bold;
     font-size: 36px;
@@ -132,10 +123,18 @@
     font-size: 16px;
     line-height: 1.19;
   }
-  
+
+  .container {
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+    background-color: var(--conteiner-bg-color);
+  }
+
   .container-team {
     background-color: var(--secondary-background-color);
   }
+
   .profession {
     font-size: 16px;
     line-height: 1.19;
@@ -164,9 +163,10 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 24px;
+    /* or 171% */   
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--main-text-color);
   }
   
   /*кнопка индекс*/
@@ -177,7 +177,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #ffffff;
+    color: var(--main-color);
     background-color: var(--accent-color);
     position: relative;
     left: 6%;
@@ -198,7 +198,7 @@
     background-color: var(--main-background-color);
     border-radius:3px;
     border: 0;
-    background: #F5F4FA;
+    background: var(--secondary-background-color);
     margin-top: 10px;   
   }
 
@@ -210,14 +210,10 @@
    /*кнопка портфолио*/
   .button_2:hover {
     background: var(--accent-color);
-    color: #ffffff;
+    color: var(--main-color);
     border: 0;
   }
-  /*кнопка индекс*/
-  .button:active {
-	position:relative;
-	top:1px;
-  }
+
    /*кнопка портфолио*/
   .button_2:active {
 	position:relative;
