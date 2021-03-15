@@ -85,11 +85,7 @@
     letter-spacing: 0.02em;
     color: var(--main-text-color);
   }
-  
-  .link.current {
-    color: var(--accent-color);
-  }
-  
+    
   .site-nav .link:hover,
   .site-nav .link:focus,
   .auth-nav .link:hover,
