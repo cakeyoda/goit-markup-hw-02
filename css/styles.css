@@ -208,7 +208,8 @@
     border: 0;
   }
    /*кнопка портфолио*/
-  .button_2:hover {
+  .button_2:hover,
+  .button_2:focus {
     background: var(--accent-color);
     color: var(--main-color);
     border: 0;
